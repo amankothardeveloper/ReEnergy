@@ -1,19 +1,43 @@
-import React from "react";
+import React, { useRef } from "react";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Navigation } from "swiper/modules";
+import "swiper/css";
+import "swiper/css/navigation";
 
 const Hero = () => {
+  const swiperRef = useRef(null);
+
+  const handlePrevSlide = () => {
+    if (swiperRef.current && swiperRef.current.swiper) {
+      swiperRef.current.swiper.slidePrev();
+    }
+  };
+
+  const handleNextSlide = () => {
+    if (swiperRef.current && swiperRef.current.swiper) {
+      swiperRef.current.swiper.slideNext();
+    }
+  };
+
   return (
     <section className="hero-section hero-1">
       <div className="array-button">
-        <button className="array-prev">
+        <button className="array-prev" onClick={handlePrevSlide}>
           <i className="fal fa-arrow-left" />
         </button>
-        <button className="array-next">
+        <button className="array-next" onClick={handleNextSlide}>
           <i className="fal fa-arrow-right" />
         </button>
       </div>
-      <div className="swiper hero-slider">
-        <div className="swiper-wrapper">
-          <div className="swiper-slide">
+      <Swiper
+        ref={swiperRef}
+        modules={[Navigation]}
+        spaceBetween={0}
+        slidesPerView={1}
+        loop={true}
+        className="hero-slider"
+      >
+        <SwiperSlide>
             <div
               className="hero-image bg-cover"
               style={{
@@ -65,8 +89,8 @@ const Hero = () => {
                 </div>
               </div>
             </div>
-          </div>
-          <div className="swiper-slide">
+        </SwiperSlide>
+        <SwiperSlide>
             <div
               className="hero-image bg-cover"
               style={{
@@ -119,9 +143,8 @@ const Hero = () => {
                 </div>
               </div>
             </div>
-          </div>
-        </div>
-      </div>
+        </SwiperSlide>
+      </Swiper>
     </section>
   );
 };
