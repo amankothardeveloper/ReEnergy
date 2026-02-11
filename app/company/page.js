@@ -8,7 +8,7 @@ import ContactForm from "../(component_)/ContactForm";
 const Company = () => {
   return (
     <>
-      <Banner />
+      <Banner title={"About Us"}/>
       <About />
     
       <section className="offer-section fix section-bg-2 section-padding">

@@ -1,6 +1,6 @@
 import React from "react";
 
-const Banner = () => {
+const Banner = ({ title }) => {
   return (
     <div
       className="breadcrumb-wrapper bg-cover"
@@ -32,7 +32,7 @@ const Banner = () => {
               animationName: "fadeInUp",
             }}
           >
-            About Us
+            {title}
           </h1>
           <ul
             className="breadcrumb-items wow fadeInUp"

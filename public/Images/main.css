@@ -1220,7 +1220,7 @@ span {
   content: "";
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url("/Images/circle-2.png");
+  background-image: url("https://reenergy.baseecom.com/Images/circle-2.png");
   animation: cir36 10s linear infinite;
 }
 .contact-info-area .contact-info-items .content p {
@@ -1270,7 +1270,7 @@ span {
   content: "";
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url("/Images/circle-3.png");
+  background-image: url("https://reenergy.baseecom.com/Images/circle-3.png");
   animation: cir36 10s linear infinite;
 }
 .contact-wrapper-2 .contact-left-items .contact-info-area-2 .contact-info-items .content p {
@@ -1591,7 +1591,7 @@ span {
   width: 14px;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url("/Images/bar.png");
+  background-image: url("https://reenergy.baseecom.com/Images/bar.png");
 }
 @media (max-width: 1399px) {
   .cta-banner-2 .cta-wrapper-2 .author-icon::before {
@@ -1728,11 +1728,11 @@ span {
 .faq-content .accordion-item .accordion-header .accordion-button::after {
   font-weight: 500;
   transition: all 0.3s ease-in-out !important;
-  background-image: url(/Images/chevron-right.svg);
+  background-image: url(https://reenergy.baseecom.com/Images/chevron-right.svg);
   color: var(--theme2);
 }
 .faq-content .accordion-item .accordion-header .accordion-button:not(.collapsed)::after {
-  background-image: url(/Images/chevron-down.svg);
+  background-image: url(https://reenergy.baseecom.com/Images/chevron-down.svg);
   font-weight: 500;
   color: var(--theme2);
   transform: rotate(0);
@@ -4893,7 +4893,7 @@ span {
   content: "";
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url(/Images/service-bg-2.jpg);
+  background-image: url(https://reenergy.baseecom.com/Images/service-bg-2.jpg);
 }
 
 .mean-container a.meanmenu-reveal {
@@ -6521,7 +6521,7 @@ input.main-search-input::placeholder {
   content: "";
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url(/Images/line-shape.png);
+  background-image: url(https://reenergy.baseecom.com/Images/line-shape.png);
   z-index: -1;
   visibility: hidden;
   opacity: 0;
@@ -6657,7 +6657,7 @@ input.main-search-input::placeholder {
   display: none;
 }
 .service-box-items.style-3 .icon::before {
-  background-image: url(/Images/shape-2.png);
+  background-image: url(https://reenergy.baseecom.com/Images/shape-2.png);
 }
 .service-box-items.style-3 .theme-btn-2 {
   border: 1px solid var(--border);
@@ -6672,7 +6672,7 @@ input.main-search-input::placeholder {
   color: var(--header);
 }
 .service-box-items.style-3:hover .icon::before {
-  background-image: url(/Images/shape.png);
+  background-image: url(https://reenergy.baseecom.com/Images/shape.png);
 }
 .service-box-items.style-3.active::before {
   transform: scale(1, 1);
@@ -6684,7 +6684,7 @@ input.main-search-input::placeholder {
   opacity: 1;
 }
 .service-box-items.style-3.active .icon::before {
-  background-image: url(/Images/shape.png);
+  background-image: url(https://reenergy.baseecom.com/Images/shape.png);
 }
 .service-box-items.style-3.active .theme-btn-2 {
   background-color: var(--white);
@@ -6711,7 +6711,7 @@ input.main-search-input::placeholder {
   content: "";
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url(/Images/service-bg-2.jpg);
+  background-image: url(https://reenergy.baseecom.com/Images/service-bg-2.jpg);
   top: 85%;
 }
 

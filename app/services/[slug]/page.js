@@ -6,7 +6,7 @@ const ServiceDetail = ({ params }) => {
 
     return (
         <>
-            <Banner />
+            <Banner title={params.title} />
             <section className="service-details-section fix section-padding">
                 <div className="container">
                     <div className="service-details-wrapper">
