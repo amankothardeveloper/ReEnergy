@@ -1,0 +1,39 @@
+{
+  "badge": {
+    "number": "120+",
+    "label": "Completed Projects"
+  },
+  "content": {
+    "tag": "ABOUT US",
+    "title": {
+      "line1": "About Our",
+      "line2": "Engineering Organization"
+    },
+    "description": "We are a specialized Design Engineering & EPC organization delivering integrated solutions across water, wastewater, and environmental infrastructure projects with lifecycle efficiency and regulatory compliance focus."
+  },
+  "features": [
+    {
+      "id": 1,
+      "title": "Specialized Design Engineering & EPC",
+      "description": "Comprehensive design engineering combined with turnkey EPC execution ensuring seamless project delivery."
+    },
+    {
+      "id": 2,
+      "title": "Water, Wastewater & Environmental Infrastructure",
+      "description": "Extensive expertise in sustainable water systems and environmental infrastructure."
+    },
+    {
+      "id": 3,
+      "title": "Integrated Consulting + EPC Execution Model",
+      "description": "Unified consulting and execution approach focused on lifecycle efficiency and compliance."
+    }
+  ],
+  "cta": {
+    "text": "Explore More",
+    "url": "/about"
+  },
+  "author": {
+    "name": "Ronald Richards",
+    "designation": "Co, Founder"
+  }
+}

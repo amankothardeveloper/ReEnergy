@@ -1,1 +1,23 @@
-{}
+{
+  "slides": [
+    {
+      "tag": "WELCOME TO COMPANY",
+      "title": "Engineering Sustainable Water & Environmental Infrastructure",
+      "desc": "Delivering resilient and future-ready infrastructure solutions.",
+      "btn": "Learn More"
+    },
+    {
+      "tag": "OUR EXPERTISE",
+      "title": "Integrated Design Engineering and Turnkey EPC Solutions",
+      "desc": "Comprehensive end-to-end engineering services.",
+      "btn": "Our Services"
+    },
+    {
+      "tag": "PROJECT DELIVERY",
+      "title": "From Concept to Commissioning — Performance Driven Delivery",
+      "desc": "Transforming ideas into operational infrastructure.",
+      "btn": "View Projects"
+    }
+  ]
+}
+
