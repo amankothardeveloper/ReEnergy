@@ -1,0 +1,44 @@
+{
+  "section": {
+    "tag": "ENGINEERING CONSULTING SERVICES",
+    "title": {
+      "line1": "Comprehensive Engineering",
+      "line2": "Consulting & Advisory Solutions"
+    }
+  },
+  "services": [
+    {
+      "id": 1,
+      "title": "Feasibility & Concept Development",
+      "description": "Feasibility studies, concept design, and techno-economic analysis to define technically and financially viable project solutions.",
+      "icon": "sIcon1",
+      "url": "/services/feasibility"
+    },
+    {
+      "id": 2,
+      "title": "Process Technology & System Selection",
+      "description": "Technology selection including MBR, MBBR, SBR, RO, and ZLD based on project requirements and regulatory standards.",
+      "icon": "sIcon2",
+      "url": "/services/technology-selection"
+    },
+    {
+      "id": 3,
+      "title": "Engineering Design & Documentation",
+      "description": "Basic and detailed engineering including PFD, P&ID, hydraulic design, BOQ preparation, and tender engineering support.",
+      "icon": "sIcon3",
+      "url": "/services/design-engineering"
+    },
+    {
+      "id": 4,
+      "title": "Bid Evaluation & Commissioning Advisory",
+      "description": "Bid evaluation, vendor review, commissioning advisory, and performance validation for optimized project outcomes.",
+      "icon": "sIcon4",
+      "url": "/services/commissioning"
+    }
+  ],
+  "footerText": {
+    "prefix": "Engineering Consulting Services.",
+    "linkText": "View Services",
+    "url": "/services"
+  }
+}

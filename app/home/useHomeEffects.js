@@ -163,12 +163,13 @@ export default function useHomeEffects() {
           spaceBetween: 30,
           speed: 1500,
           loop: true,
+          infinite: true,
           autoplay: {
             delay: 1500,
             disableOnInteraction: false,
           },
           breakpoints: {
-            1199: { slidesPerView: 4 },
+            1199: { slidesPerView: 3 },
             991: { slidesPerView: 3 },
             767: { slidesPerView: 2 },
             575: { slidesPerView: 2 },
